@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{respond_to_parent gem ported for Rails >3}
   gem.homepage      = ""
 
-  gem.add_dependency 'rails',     '~> 3.2'
+  gem.add_dependency 'rails',     '>= 3.2'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
